@@ -10,4 +10,16 @@ public class Trainer {
 		inputs[2] = 1;
 		answer = a;
 	}
+	
+	public String getPoint() {
+		return "(" + inputs[0] + ", " + inputs[1] + ") " + answer + "\n";
+	}
+	
+	public double[] getInputs() {
+		return inputs;
+	}
+	
+	public int getAnswer() {
+		return answer;
+	}
 }
